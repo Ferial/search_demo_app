@@ -38,5 +38,5 @@ class Item < ActiveRecord::Base
 
   default_sphinx_scope :available_in_store
 
-  #Item.color_in(3,4).size_in(35,36).with_title("Футболка").price_in_range(1000, 2000).order_by(:price, :asc)
+  #Item.color_in([3,4]).size_in([35,36]).with_title("Футболка").price_in_range(1000, 2000).order_by(:price, :asc)
 end
